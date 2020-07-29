@@ -1,0 +1,1145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b7a7694d-80e3-4396-bbf9-eed21b7efbf7" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/j2ee_final_project$J2eeFinalProjectApplication.ic" NAME="J2eeFinalProjectApplication Coverage Results" MODIFIED="1592386908661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1130799075">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="52" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.12" value="4" />
+          <entry key="project.open.time.13" value="4" />
+          <entry key="project.open.time.14" value="6" />
+          <entry key="project.open.time.15" value="2" />
+          <entry key="project.open.time.16" value="6" />
+          <entry key="project.open.time.17" value="4" />
+          <entry key="project.open.time.18" value="2" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.20" value="3" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.22" value="2" />
+          <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.3" value="11" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.opened" value="53" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="18" />
+          <entry key="css" value="11" />
+          <entry key="html" value="132" />
+          <entry key="java" value="206" />
+          <entry key="jpg" value="2" />
+          <entry key="js" value="8" />
+          <entry key="md" value="1" />
+          <entry key="png" value="1" />
+          <entry key="properties" value="4" />
+          <entry key="svg" value="2" />
+          <entry key="userMapper" value="3" />
+          <entry key="xml" value="70" />
+          <entry key="yml" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="18" />
+          <entry key="CSS" value="11" />
+          <entry key="HTML" value="132" />
+          <entry key="Image" value="3" />
+          <entry key="JAVA" value="206" />
+          <entry key="JavaScript" value="8" />
+          <entry key="Markdown" value="1" />
+          <entry key="Properties" value="4" />
+          <entry key="SVG" value="2" />
+          <entry key="XML" value="73" />
+          <entry key="YAML" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="1" />
+          <entry key="dummy" value="13" />
+          <entry key="html" value="3314" />
+          <entry key="java" value="11687" />
+          <entry key="properties" value="88" />
+          <entry key="userMapper" value="280" />
+          <entry key="xml" value="2519" />
+          <entry key="yml" value="274" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="1" />
+          <entry key="HTML" value="3314" />
+          <entry key="JAVA" value="11687" />
+          <entry key="PLAIN_TEXT" value="13" />
+          <entry key="Properties" value="88" />
+          <entry key="SQL" value="16" />
+          <entry key="XML" value="2783" />
+          <entry key="YAML" value="274" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-1083106953">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="j2ee_final_project" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/lijie/finalproject/J2eeFinalProjectApplicationTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="227">
+              <caret line="29" column="2" selection-start-line="29" selection-start-column="2" selection-end-line="31" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.2.6.RELEASE/spring-data-redis-2.2.6.RELEASE.jar!/org/springframework/data/redis/core/RedisTemplate.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4845">
+              <caret line="308" column="45" selection-start-line="308" selection-start-column="45" selection-end-line="308" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.2.6.RELEASE/spring-boot-autoconfigure-2.2.6.RELEASE.jar!/org/springframework/boot/autoconfigure/data/redis/RedisAutoConfiguration.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="34" column="21" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.2.6.RELEASE/spring-data-redis-2.2.6.RELEASE.jar!/org/springframework/data/redis/serializer/RedisSerializer.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.2.6.RELEASE/spring-data-redis-2.2.6.RELEASE.jar!/org/springframework/data/redis/serializer/Jackson2JsonRedisSerializer.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lijie/finalproject/config/MyRedisConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#937#945#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lijie/finalproject/service/userService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="14" column="24" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1045">
+              <caret line="55" column="36" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lijie/finalproject/J2eeFinalProjectApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lijie/finalproject/bean/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Interface" />
+        <option value="FxmlFile" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/lijie/finalproject/util/deleteFile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lijie/finalproject/util/FileDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lijie/finalproject/dao/roleDao.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis/mapper/roleMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lijie/finalproject/bean/classify.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/manage/role_CRUD.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/manage/userMessage.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/manage/userRole_manage.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/manage/userUpdate_manage.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lijie/finalproject/dao/manageDao.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis/mapper/manageMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/dashboard.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/fileUpload.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/manage/classifyList.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/bootstrap.min.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/css/bootstrap.min.css" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lijie/finalproject/utils/FileDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lijie/finalproject/utils/MathUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/manage/userRoleUpdate.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/manage/fileList_manage.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lijie/finalproject/utils/ImageUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lijie/finalproject/bean/Json.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis/mybatisConfig.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lijie/finalproject/utils/FileUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/manage/fileViewRecord.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/user/fileList_user.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lijie/finalproject/dao/fileDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lijie/finalproject/service/fileService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lijie/finalproject/bean/Classify.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lijie/finalproject/bean/file_user.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lijie/finalproject/bean/Role.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lijie/finalproject/bean/Manage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lijie/finalproject/bean/File.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/user/fileInformation_user.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lijie/finalproject/controller/file_userController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/manage/fileInformation.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lijie/finalproject/controller/fileController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lijie/finalproject/dao/userDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lijie/finalproject/service/userService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lijie/finalproject/controller/ManageController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lijie/finalproject/controller/login.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/dashboard_manage.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lijie/finalproject/service/manageService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lijie/finalproject/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis/mapper/userMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis/mapper/fileMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lijie/finalproject/bean/User.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/lijie/finalproject/J2eeFinalProjectApplicationTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lijie/finalproject/config/MyRedisConfig.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\Users\A\.m2\repository" />
+        <option name="userSettingsFile" value="C:\Users\A\.m2\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="j2ee_final_project" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="j2ee_final_project" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="j2ee_final_project" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="com.fasterxml.jackson.core:jackson-databind:2.8.8" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="90" />
+    <option name="y" value="10" />
+    <option name="width" value="1525" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <hideEmptyPackages ProjectPane="false" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="j2ee_final_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j2ee_final_project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="j2ee_final_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j2ee_final_project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="j2ee_final_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j2ee_final_project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="j2ee_final_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j2ee_final_project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="j2ee_final_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j2ee_final_project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="j2ee_final_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j2ee_final_project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lijie" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="j2ee_final_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j2ee_final_project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lijie" type="462c0819:PsiDirectoryNode" />
+              <item name="finalproject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="j2ee_final_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j2ee_final_project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lijie" type="462c0819:PsiDirectoryNode" />
+              <item name="finalproject" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="j2ee_final_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j2ee_final_project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="j2ee_final_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j2ee_final_project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="j2ee_final_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j2ee_final_project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="j2ee_final_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j2ee_final_project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="j2ee_final_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j2ee_final_project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lijie" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="j2ee_final_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j2ee_final_project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lijie" type="462c0819:PsiDirectoryNode" />
+              <item name="finalproject" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SearchEverywhereHistoryKey" value="RedisAuto&#9;FILE&#9;jar://C:/Users/A/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.2.6.RELEASE/spring-boot-autoconfigure-2.2.6.RELEASE.jar!/org/springframework/boot/autoconfigure/data/redis/RedisAutoConfiguration.class" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1593588406365" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2860465" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lijie.finalproject.Resolver" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\大三下\J2EE\作业\finalProject\j2ee_final_project\src\main\resources\static\css" />
+      <recent name="E:\大三下\J2EE\作业\finalProject\j2ee_final_project\src\main\resources\static\js" />
+      <recent name="E:\大三下\J2EE\作业\finalProject\j2ee_final_project\src\main\resources\static" />
+      <recent name="E:\大三下\J2EE\作业\finalProject\j2ee_final_project\src\main\resources\static\img" />
+      <recent name="E:\大三下\J2EE\作业\finalProject\j2ee_final_project\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.J2eeFinalProjectApplicationTests.test2">
+    <configuration name="J2eeFinalProjectApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="j2ee_final_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lijie.finalproject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lijie.finalproject" />
+      <option name="MAIN_CLASS_NAME" value="com.lijie.finalproject.J2eeFinalProjectApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="J2eeFinalProjectApplicationTests.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="j2ee_final_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lijie.finalproject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lijie.finalproject" />
+      <option name="MAIN_CLASS_NAME" value="com.lijie.finalproject.J2eeFinalProjectApplicationTests" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="J2eeFinalProjectApplicationTests.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="j2ee_final_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lijie.finalproject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lijie.finalproject" />
+      <option name="MAIN_CLASS_NAME" value="com.lijie.finalproject.J2eeFinalProjectApplicationTests" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="J2eeFinalProjectApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="j2ee_final_project" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lijie.finalproject.J2eeFinalProjectApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.J2eeFinalProjectApplication" />
+      <item itemvalue="JUnit.J2eeFinalProjectApplicationTests.contextLoads" />
+      <item itemvalue="JUnit.J2eeFinalProjectApplicationTests.test" />
+      <item itemvalue="JUnit.J2eeFinalProjectApplicationTests.test2" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.J2eeFinalProjectApplicationTests.test2" />
+        <item itemvalue="JUnit.J2eeFinalProjectApplicationTests.test" />
+        <item itemvalue="JUnit.J2eeFinalProjectApplicationTests.contextLoads" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b7a7694d-80e3-4396-bbf9-eed21b7efbf7" name="Default Changelist" comment="" />
+      <created>1587106154566</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587106154566</updated>
+      <workItem from="1587106158612" duration="9036000" />
+      <workItem from="1587121538252" duration="1915000" />
+      <workItem from="1587172800280" duration="7567000" />
+      <workItem from="1587345342590" duration="9515000" />
+      <workItem from="1587382375902" duration="5786000" />
+      <workItem from="1587432307373" duration="26000" />
+      <workItem from="1587519625441" duration="5933000" />
+      <workItem from="1587539410642" duration="8154000" />
+      <workItem from="1587602954190" duration="629000" />
+      <workItem from="1587611645344" duration="616000" />
+      <workItem from="1587621251643" duration="13645000" />
+      <workItem from="1587780990310" duration="1249000" />
+      <workItem from="1587864948823" duration="3606000" />
+      <workItem from="1587881769184" duration="9801000" />
+      <workItem from="1587970820669" duration="3155000" />
+      <workItem from="1588037430174" duration="19000" />
+      <workItem from="1588125326548" duration="3147000" />
+      <workItem from="1588141213968" duration="4529000" />
+      <workItem from="1588216347965" duration="1493000" />
+      <workItem from="1588217887219" duration="977000" />
+      <workItem from="1588228342123" duration="9190000" />
+      <workItem from="1588297756649" duration="6127000" />
+      <workItem from="1588315849889" duration="1438000" />
+      <workItem from="1588321041376" duration="4151000" />
+      <workItem from="1588382663513" duration="17772000" />
+      <workItem from="1588646761121" duration="959000" />
+      <workItem from="1588666122412" duration="4803000" />
+      <workItem from="1588734729603" duration="11675000" />
+      <workItem from="1588857042621" duration="131000" />
+      <workItem from="1588918638343" duration="9125000" />
+      <workItem from="1588988298669" duration="6864000" />
+      <workItem from="1589007963909" duration="635000" />
+      <workItem from="1589075249673" duration="5945000" />
+      <workItem from="1589100649980" duration="2842000" />
+      <workItem from="1589183879273" duration="8772000" />
+      <workItem from="1589207732392" duration="1390000" />
+      <workItem from="1589248567758" duration="2161000" />
+      <workItem from="1589269600350" duration="3790000" />
+      <workItem from="1589612153749" duration="3984000" />
+      <workItem from="1589859159994" duration="599000" />
+      <workItem from="1590213244630" duration="924000" />
+      <workItem from="1590216003911" duration="4359000" />
+      <workItem from="1590311494491" duration="12000" />
+      <workItem from="1590631850737" duration="144000" />
+      <workItem from="1590659268966" duration="189000" />
+      <workItem from="1590909244003" duration="1428000" />
+      <workItem from="1590978780338" duration="537000" />
+      <workItem from="1590979416669" duration="133000" />
+      <workItem from="1591328463096" duration="1577000" />
+      <workItem from="1591337606193" duration="632000" />
+      <workItem from="1592386762179" duration="1750000" />
+      <workItem from="1592966838197" duration="1103000" />
+      <workItem from="1592979292831" duration="276000" />
+      <workItem from="1593583561636" duration="5414000" />
+      <workItem from="1593842820924" duration="17000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="J2eeFinalProjectApplicationTests_contextLoads - 2020.05.08 at 15h 39m 53s.xml">
+      <configuration name="J2eeFinalProjectApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="J2eeFinalProjectApplicationTests_test - 2020.07.01 at 14h 42m 26s.xml">
+      <configuration name="J2eeFinalProjectApplicationTests.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="J2eeFinalProjectApplicationTests_test - 2020.07.01 at 14h 43m 02s.xml">
+      <configuration name="J2eeFinalProjectApplicationTests.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="J2eeFinalProjectApplicationTests_test - 2020.07.01 at 14h 44m 01s.xml">
+      <configuration name="J2eeFinalProjectApplicationTests.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="J2eeFinalProjectApplicationTests_test - 2020.07.01 at 14h 45m 46s.xml">
+      <configuration name="J2eeFinalProjectApplicationTests.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="J2eeFinalProjectApplicationTests_test2 - 2020.07.01 at 14h 53m 03s.xml">
+      <configuration name="J2eeFinalProjectApplicationTests.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="J2eeFinalProjectApplicationTests_test2 - 2020.07.01 at 14h 53m 35s.xml">
+      <configuration name="J2eeFinalProjectApplicationTests.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="J2eeFinalProjectApplicationTests_test2 - 2020.07.01 at 14h 55m 55s.xml">
+      <configuration name="J2eeFinalProjectApplicationTests.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="J2eeFinalProjectApplicationTests_test2 - 2020.07.01 at 15h 19m 00s.xml">
+      <configuration name="J2eeFinalProjectApplicationTests.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="J2eeFinalProjectApplicationTests_test2 - 2020.07.01 at 15h 21m 27s.xml">
+      <configuration name="J2eeFinalProjectApplicationTests.test2" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="211646000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Favorites" order="2" sideWeight="0.5028329" side_tool="true" weight="0.2580429" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Web" order="4" side_tool="true" />
+      <window_info id="Designer" order="5" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.49716714" visible="true" weight="0.2272118" />
+      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.15155807" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="2" weight="0.3286119" />
+      <window_info anchor="bottom" id="Java Enterprise" order="3" weight="0.3286119" />
+      <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.41218132" />
+      <window_info anchor="bottom" id="Spring" order="9" weight="0.3286119" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.41359773" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="13" weight="0.3286119" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Maven Projects" order="1" weight="0.3297587" />
+      <window_info anchor="right" id="Database" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Bean Validation" order="5" />
+      <window_info anchor="right" id="Palette" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/heartImage/QQ截图20191007212111.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/heartImage/qq_pic_merged_1568653403706.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/heartImage/v2-bad47108bf89e807cf1a6123e3155ca8_r.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lijie/finalproject/service/loginService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="68" column="24" lean-forward="true" selection-start-line="68" selection-start-column="24" selection-end-line="68" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/dashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="79" column="29" lean-forward="true" selection-start-line="60" selection-start-column="25" selection-end-line="79" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/user/userUpdate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="126" column="150" selection-start-line="126" selection-start-column="104" selection-end-line="126" selection-end-column="150" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lijie/finalproject/dao/fileDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="39" column="25" selection-start-line="39" selection-start-column="15" selection-end-line="39" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lijie/finalproject/bean/Manage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lijie/finalproject/bean/file_user.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lijie/finalproject/bean/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lijie/finalproject/bean/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/user/fileInformation_user.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1957">
+          <caret line="103" column="52" selection-start-line="103" selection-start-column="52" selection-end-line="103" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/user/fileList_user.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1824">
+          <caret line="96" column="34" selection-start-line="96" selection-start-column="34" selection-end-line="96" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lijie/finalproject/bean/Classify.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/manage/userMessage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="98" column="148" selection-start-line="98" selection-start-column="114" selection-end-line="98" selection-end-column="148" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/manage/userUpdate_manage.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lijie/finalproject/dao/userDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lijie/finalproject/utils/ImageUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1311">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/mapper/manageMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lijie/finalproject/service/fileService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="49" column="33" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/dashboard_manage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2090">
+          <caret line="110" column="47" selection-start-line="110" selection-start-column="47" selection-end-line="110" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lijie/finalproject/controller/ManageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="23" column="14" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lijie/finalproject/controller/fileController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1881">
+          <caret line="118" column="74" selection-start-line="118" selection-start-column="74" selection-end-line="118" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lijie/finalproject/dao/roleDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="31" column="46" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lijie/finalproject/controller/file_userController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lijie/finalproject/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lijie/finalproject/utils/FileUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/mapper/fileMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/manage/fileList_manage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="62" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/manage/classifyList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2033">
+          <caret line="107" column="23" selection-start-line="107" selection-start-column="23" selection-end-line="107" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/mapper/userMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/mapper/roleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="49" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/mybatisConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lijie/finalproject/service/manageService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="912">
+          <caret line="64" column="9" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login_manage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lijie/finalproject/controller/login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="74" column="24" selection-start-line="74" selection-start-column="24" selection-end-line="74" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/manage/fileInformation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="149" column="39" selection-start-line="149" selection-start-column="39" selection-end-line="149" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/说明.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.2.6.RELEASE/spring-data-redis-2.2.6.RELEASE.jar!/org/springframework/data/redis/core/StringRedisTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="15" column="47" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/lijie/finalproject/J2eeFinalProjectApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="29" column="2" selection-start-line="29" selection-start-column="2" selection-end-line="31" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.2.6.RELEASE/spring-data-redis-2.2.6.RELEASE.jar!/org/springframework/data/redis/core/RedisTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4845">
+          <caret line="308" column="45" selection-start-line="308" selection-start-column="45" selection-end-line="308" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.2.6.RELEASE/spring-boot-autoconfigure-2.2.6.RELEASE.jar!/org/springframework/boot/autoconfigure/data/redis/RedisAutoConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="34" column="21" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.2.6.RELEASE/spring-data-redis-2.2.6.RELEASE.jar!/org/springframework/data/redis/serializer/RedisSerializer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.2.6.RELEASE/spring-data-redis-2.2.6.RELEASE.jar!/org/springframework/data/redis/serializer/Jackson2JsonRedisSerializer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lijie/finalproject/config/MyRedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#937#945#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lijie/finalproject/service/userService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1045">
+          <caret line="55" column="36" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lijie/finalproject/J2eeFinalProjectApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lijie/finalproject/bean/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web|j2ee_final_project</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2860465" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

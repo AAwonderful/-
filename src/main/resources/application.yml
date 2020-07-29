@@ -1,0 +1,32 @@
+server:
+  port: 8080
+#   spring 配置
+spring:
+  #数据库连接
+  datasource:
+    name: test
+    url: jdbc:mysql://127.0.0.1:3306/j2ee?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+  servlet:
+   multipart:
+     max-file-size: 5MB    #设置单个文件的最大值
+     max-request-size: 50MB  #设置单次请求的所有文件的最大值
+  redis: #redis 配置 主机地址
+    host: 212.64.14.200
+  #国际化
+  messages:
+    basename: messageConfig/login
+  #thymeleaf
+  thymeleaf:
+    cache: false
+
+
+## 该配置节点为独立的节点
+mybatis:
+  mapper-locations: classpath:mybatis/mapper/*.xml  #注意：一定要对应mapper映射xml文件的所在路径
+  config-location: classpath:mybatis/mybatisConfig.xml
+logging:
+  level:
+    com.lijie.finalproject.dao: DEBUG

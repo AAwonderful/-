@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.lijie.finalproject.dao.fileDao">
+    <!--user一对一映射角色-->
+    <resultMap id="FileMap" type="File">
+        <id property="fileID" column="fileID"></id>
+        <result property="fileName" column="fileName"/>
+        <result property="fileName_random" column="fileName_random"/>
+        <result property="author" column="author"/>
+        <result property="date" column="date"/>
+        <result property="looknum" column="looknum"/>
+        <result property="check" column="check_1"/>
+        <result property="classifyID" column="classifyID"/>
+        <result property="location" column="location"/>
+        <result property="type" column="type"/>
+        <result property="classifyName" column="classifyName"/>
+    </resultMap>
+    
+    <resultMap id="file_userMap" type="file_user">
+        <result property="fileID" column="fileID"/>
+        <result property="fileName" column="fileName"/>
+        <result property="userName" column="userName"/>
+        <result property="date" column="date" javaType="java.sql.Timestamp"/>
+    </resultMap>
+
+    <!--添加文件信息-->
+    <insert id="fileInsert" parameterType="File">
+        insert into file(fileName,fileName_random,author,date,looknum,check_1,classifyID,location,type)
+        values (#{fileName},#{fileName_random},#{author},#{date},#{looknum},#{check},#{classifyID},#{location},#{type})
+    </insert>
+
+    <!--删除文件信息-->
+    <delete id="fileDelete" parameterType="int">
+        delete from file where fileID=#{fileID}
+    </delete>
+
+    <!--查询所有的文件信息-->
+    <select id="getFiles" resultMap="FileMap">
+      SELECT f.*,c.`classifyName`FROM FILE f JOIN classify c ON f.`classifyID`=c.`classifyID`
+    </select>
+
+    <!--根据fileID查询文件信息-->
+    <select id="getFileByID" parameterType="int" resultMap="FileMap">
+        SELECT f.*,c.`classifyName`FROM FILE f JOIN classify c ON f.`classifyID`=c.`classifyID` where fileID=#{fileID}
+    </select>
+    <!--文件审核-->
+    <update id="fileCheckUpdate">
+        UPDATE FILE SET check_1=#{arg0} WHERE fileID=#{arg1}
+    </update>
+    <!--查看已审核的文件信息-->
+    <select id="getFilesPass" resultMap="FileMap">
+       SELECT f.*,c.`classifyName`FROM FILE f JOIN classify c ON f.`classifyID`=c.`classifyID` where check_1=1
+    </select>
+    <!--更新文件查看次数-->
+    <update id="updateLookNum">
+        update file set looknum=#{arg1} where fileID=#{arg0}
+    </update>
+
+    <!--添加文件查看记录-->
+    <insert id="fileViewRecord_Insert" parameterType="File_user">
+        insert into file_user values (#{fileID},#{fileName},#{userName},#{date})
+    </insert>
+    <!--根据文件ID获得查看记录-->
+    <select id="getfileViewRecordByfileID" parameterType="int" resultMap="file_userMap">
+        select * from file_user where fileID =#{fileID}
+    </select>
+
+    <!--查询文件-->
+    <select id="fileSelect" parameterType="File" resultMap="FileMap">
+        SELECT f.*,c.`classifyName`FROM FILE f JOIN classify c ON f.`classifyID`=c.`classifyID`
+        <where>
+            <if test="fileName!=null and fileName!='%%'">
+                and fileName like #{fileName}
+            </if>
+            <if test="author!=null and author!='%%'">
+                and author like #{author}
+            </if>
+            <if test="check>=0 and check!=null">
+                and check_1 =#{check}
+            </if>
+            <if test="classifyID!=null and classifyID!=''">
+                and c.classifyID=#{classifyID}
+            </if>
+            <if test="type!=null and type!=''">
+                and type=#{type}
+            </if>
+        </where>
+    </select>
+</mapper>

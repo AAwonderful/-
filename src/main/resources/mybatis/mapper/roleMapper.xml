@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.lijie.finalproject.dao.roleDao">
+    <!--user一对多映射角色-->
+    <resultMap id="UserMap" type="User">
+        <id property="userID" column="userID"></id>
+        <result property="username" column="username"/>
+        <result property="password" column="password"/>
+        <result property="name" column="name"/>
+        <result property="department" column="department"/>
+        <result property="sex" column="sex"/>
+        <result property="birthdate" column="birthdate"/>
+        <result property="education" column="education"/>
+        <result property="degree" column="degree"/>
+        <result property="image" column="image"/>
+        <result property="job" column="job"/>
+        <result property="email" column="email"/>
+        <result property="QQ" column="QQ"/>
+        <result property="Introduction" column="Introduction"/>
+        <!--一对多-->
+        <collection property="roles" ofType="Role">
+            <result property="roleID" column="roleID"/>
+            <result property="roleName" column="roleName"/>
+        </collection>
+    </resultMap>
+
+    <resultMap id="RoleMap" type="Role">
+        <id property="roleID" column="roleID"/>
+        <result property="roleName" column="roleName"/>
+    </resultMap>
+    <!--查询每个用户的角色-->
+    <select id="userRole"  resultMap="UserMap">
+        SELECT u.*,r.* FROM USER u JOIN user_role u_r ON u.`userID`=u_r.`userID`
+        JOIN role r ON u_r.`roleID`=r.`roleID`
+ </select>
+
+    <!--添加角色-->
+    <insert id="roleInsert" parameterType="String">
+        insert role(roleName) values (#{roleName})
+    </insert>
+
+    <!--根据角色名删除角色-->
+    <delete id="roleDelete" parameterType="String">
+        delete from role where roleName=#{roleName}
+    </delete>
+
+    <!--获得全部角色-->
+    <select id="getRoles" resultType="Role">
+        select * from role
+    </select>
+    <!--根据userID获得用户信息和角色-->
+    <select id="getUserAndRole" parameterType="int" resultMap="UserMap">
+        SELECT u.*,r.* FROM USER u JOIN user_role u_r ON u.`userID`=u_r.`userID`
+        JOIN role r ON u_r.`roleID`=r.`roleID`
+        where u.userID=#{userID}
+    </select>
+    <!--从用户角色中删除角色-->
+    <delete id="userRoleDelete" >
+        delete from user_role where userID=#{arg0} and roleID=#{arg1}
+    </delete>
+    <!--从用户角色中添加角色-->
+    <insert id="userRoleInsert">
+        insert user_role values (#{arg0},#{arg1})
+    </insert>
+</mapper>

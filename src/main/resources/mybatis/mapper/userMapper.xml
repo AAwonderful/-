@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.lijie.finalproject.dao.userDao">
+    <!--user一对多映射角色-->
+    <resultMap id="UserMap" type="User">
+        <id property="userID" column="userID"></id>
+        <result property="username" column="username"/>
+        <result property="password" column="password"/>
+        <result property="name" column="name"/>
+        <result property="department" column="department"/>
+        <result property="sex" column="sex"/>
+        <result property="birthdate" column="birthdate"/>
+        <result property="education" column="education"/>
+        <result property="degree" column="degree"/>
+        <result property="image" column="image"/>
+        <result property="job" column="job"/>
+        <result property="email" column="email"/>
+        <result property="QQ" column="QQ"/>
+        <result property="Introduction" column="Introduction"/>
+<!--一对多-->
+        <!--<collection property="roles" ofType="Role">-->
+            <!--<result property="roleID" column="roleID"/>-->
+            <!--<result property="roleName" column="roleName"/>-->
+        <!--</collection>-->
+    </resultMap>
+
+    <!--配置查询所有 id:dao层的方法名称、resultType:返回的方法-->
+    <!--List<User> getUser();-->
+    <select id="getUser" resultMap="UserMap">
+        select * from user
+    </select>
+
+    <select id="getUserByname" resultMap="UserMap" parameterType="String">
+        select * from user where username=#{username}
+    </select>
+
+    <update id="userUpdate" parameterType="User">
+        update user set username=#{username},name=#{name},department=#{department},sex=#{sex},birthdate=#{birthdate},education=#{education},job=#{job},email=#{email},QQ=#{QQ},
+        Introduction=#{Introduction} ,degree=#{degree},image=#{image}where userID=#{userID}
+    </update>
+
+    <select id="getUserByID" resultMap="UserMap" parameterType="int">
+        select * from user where userID=#{userID}
+    </select>
+
+    <delete id="userDelete" parameterType="int">
+        delete from  user where userID=#{userID}
+    </delete>
+    <insert id="userInsert" parameterType="User">
+        insert into user(username,password) values (#{username},#{password})
+    </insert>
+
+</mapper>

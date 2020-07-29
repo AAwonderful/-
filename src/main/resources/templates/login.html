@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<title>登录</title>
+		<!-- Bootstrap core CSS -->
+		<link  th:href="@{webjars/bootstrap/4.0.0/css/bootstrap.css}" rel="stylesheet">
+		<!-- Custom styles for this template -->
+		<link href="css/signin.css"  rel="stylesheet">
+	</head>
+	<body class="text-center">
+	<div class="jumbotron">
+		<h1 th:text="#{login.title}"></h1>
+		<form class="form-signin"  th:action="@{/home}" method="post">
+			<img class="mb-4" th:src="@{/img/工学院校徽.png}" src="img/工学院校徽.png" alt="" width="72" height="72"/>
+			<h1 class="h3 mb-3 font-weight-normal" th:text="#{login.tip}">请登录</h1>
+			<!--出错提示-->
+			<div class="alert alert-danger" role="alert" th:if="${#request.getAttribute('error') != null}" th:text="${error}"></div>
+			<label class="sr-only" th:text="#{login.username}">Username</label>
+			<input type="text"  name="username" class="form-control" th:placeholder="#{login.username}" required="" autofocus="">
+            <label class=" sr-only" th:text="#{login.password}">Password</label>
+			<input type="password" name="password" class="form-control" th:placeholder="#{login.password}"  required="">
+			<div class="checkbox mb-3">
+				<label>
+          			<input type="checkbox" value="" /><a th:text="#{login.remember}"></a>
+        		</label>
+			</div>
+			<input class="btn btn-lg btn-primary btn-block" type="submit" th:value="#{login.button}"/>
+			<input class="btn btn-lg btn-primary btn-block" type="button" th:value="#{login.roleManage}" onclick="javascrtpt:window.location.href='login_manage'" />
+			<p class="mt-5 mb-3 text-muted">© 2020-2021 李杰</p>
+			<a class="btn btn-sm" th:href="@{LocaleResolver(Locale='zh_CN')}">中文</a>
+			<a class="btn btn-sm" th:href="@{/LocaleResolver(Locale='en_US')}">English</a>
+		</form>
+	</div>
+	</body>
+
+</html>

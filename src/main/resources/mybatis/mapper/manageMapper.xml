@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.lijie.finalproject.dao.manageDao">
+    <!--user一对一映射角色-->
+    <resultMap id="ManageMap" type="Manage">
+        <id property="manageID" column="manageID"></id>
+        <result property="manageName" column="manageName"/>
+        <result property="password" column="password"/>
+    </resultMap>
+
+    <resultMap id="ClassifyMap" type="Classify">
+        <id property="classifyID" column="classifyID"></id>
+        <result property="classifyName" column="classifyName"></result>
+    </resultMap>
+
+
+    <!--配置查询所有 id:dao层的方法名称、resultType:返回的方法-->
+
+    <!--更具管理员名称获得管理员-->
+    <select id="getManageByname" resultMap="ManageMap" parameterType="String">
+        select * from manage where manageName=#{manageName}
+    </select>
+
+    <!--添加文件的分类-->
+    <insert id="classifyInsert" parameterType="String">
+        insert into classify(classifyName) values (#{classifyName})
+    </insert>
+
+    <!--查询所有分类-->
+    <select id="getClassify" resultMap="ClassifyMap">
+        select * from classify
+    </select>
+    <!--删除分类-->
+    <delete id="classifyDelete" parameterType="int">
+        delete from classify where classifyID=#{classifyID}
+    </delete>
+
+
+
+    <!--<select id="getUserByname" resultMap="UserMap" parameterType="String">-->
+        <!--select * from user where username=#{username}-->
+    <!--</select>-->
+
+    <!--<update id="userUpdate" parameterType="User">-->
+        <!--update user set username=#{username},name=#{name},department=#{department},sex=#{sex},birthdate=#{birthdate},education=#{education},job=#{job},email=#{email},QQ=#{QQ},-->
+        <!--Introduction=#{Introduction} where userID=#{userID}-->
+    <!--</update>-->
+
+    <!--<select id="getUserByID" resultMap="UserMap" parameterType="int">-->
+        <!--select * from user where userID=#{userID}-->
+    <!--</select>-->
+</mapper>

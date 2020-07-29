@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--起别名-->
+    <typeAliases>
+        <typeAlias type="com.lijie.finalproject.bean.User" alias="User"/>
+        <typeAlias type="com.lijie.finalproject.bean.Manage" alias="Manage"/>
+        <typeAlias type="com.lijie.finalproject.bean.Role" alias="Role"/>
+        <typeAlias type="com.lijie.finalproject.bean.Classify" alias="Classify"/>
+        <typeAlias type="com.lijie.finalproject.bean.File" alias="File"/>
+        <typeAlias type="com.lijie.finalproject.bean.file_user" alias="File_user"/>
+    </typeAliases>
+
+
+</configuration>

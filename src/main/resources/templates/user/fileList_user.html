@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)http://getbootstrap.com/docs/4.0/examples/dashboard/ -->
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>用户主页</title>
+    <!-- 引入css文件-->
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="/bootstrap-fileinput/css/fileinput.min.css" />
+    <script src="/js/jquery-3.4.1.js"></script>
+    <!-- 引入js文件 -->
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/bootstrap-fileinput/js/fileinput.min.js"></script>
+    <script src="/bootstrap-fileinput/js/locales/zh.js"></script>
+    <!--自定义css-->
+    <link href="css/dashboard.css" th:href="@{/css/dashboard.css}" rel="stylesheet">
+    <style type="text/css">
+        /* Chart.js */
+
+        @-webkit-keyframes chartjs-render-animation {
+            from {
+                opacity: 0.99
+            }
+            to {
+                opacity: 1
+            }
+        }
+
+        @keyframes chartjs-render-animation {
+            from {
+                opacity: 0.99
+            }
+            to {
+                opacity: 1
+            }
+        }
+
+        .chartjs-render-monitor {
+            -webkit-animation: chartjs-render-animation 0.001s;
+            animation: chartjs-render-animation 0.001s;
+        }
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
+    <a class="navbar-brand col-md-2 mr-0" href="#">Company name</a>
+    <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-toggle="collapse" data-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
+    <ul class="navbar-nav px-3">
+        <li class="nav-item text-nowrap">
+            <a class="nav-link" href="#">Sign out</a>
+        </li>
+    </ul>
+</nav>
+
+<div class="container-fluid">
+    <div class="row">
+        <nav id="sidebarMenu" class="col-md-2 d-md-block bg-light sidebar collapse">
+            <div class="position-sticky">
+                <ul class="nav flex-column">
+                    li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">
+                        <span data-feather="home"></span>
+                        Dashboard
+                    </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <span data-feather="glyphicon-pencil"></span>
+                            修改个人信息
+                        </a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="file_user">
+                            <span data-feather="layers"></span>
+                            文件管理
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!--主体-->
+        <div class="container-fluid">
+            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
+                <a class="btn btn-sm btn-danger" href="emp" th:href="@{fileList_user}">已上传的文件</a>
+                <div class="panel panel-default">
+                    <form id="form" action="fileInsert" method="post" enctype="multipart/form-data">
+                        <h2>文件上传</h2>
+
+                        给文件添加一个分类：
+                        <select  id="classifyID" >
+                            <option th:each="classify:${classifys}" th:value="${classify.classifyID}" th:text="${classify.classifyName}"></option>
+                        </select>
+                        <input id="input-id" name="file" multiple="multiple" type="file" data-show-caption="true"/>
+                    </form>
+                </div>
+            </main>
+        </div>
+    </div>
+</div>
+</div>
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script type="text/javascript" src="js/popper.min.js" th:src="@{/webjars/popper.js/1.11.1/dist/popper.js}"></script>
+
+
+<!-- Icons -->
+<script type="text/javascript" src="js/feather.min.js" th:src="@{/js/feather.min.js}"></script>
+<script>
+    feather.replace()
+</script>
+
+<!-- Graphs -->
+<script type="text/javascript" src="js/Chart.min.js" th:src="@{/js/Chart.min.js}"></script>
+
+<script>
+
+
+
+    $(function () {
+        initFileInput("input-id");
+    });
+
+    function initFileInput(ctrlName) {
+        var control = $('#' + ctrlName);
+        control.fileinput({
+            language: 'zh', //设置语言
+            uploadUrl: "fileInsert", //上传的地址
+            allowedFileExtensions: ["gif", "png", "jpg", "doc", "docx", "pdf", "xls", "xlsx", "ppt", "pptx"],//接收的文件后缀
+            //uploadExtraData:{"id": 1, "fileName":'123.mp3'},
+            uploadAsync: true, //默认异步上传
+            showUpload: true, //是否显示上传按钮
+            showRemove : true, //显示移除按钮
+            showPreview : true, //是否显示预览
+            showCaption: false,//是否显示标题
+            browseClass: "btn btn-primary", //按钮样式
+            maxFileCount: 5, //允许同时上传的最大文件个数
+            enctype: 'multipart/form-data',
+            validateInitialCount:true,
+            msgFilesTooMany: "选择上传的文件数量({n}) 超过允许的最大数值{m}！",
+            uploadExtraData:function () {
+                var myselect=document.getElementById("classifyID");
+                var index=myselect.selectedIndex ; // selectedIndex代表的是你所选中项的index
+                var value= myselect.options[index].value;
+                var obj = {"classifyID":value};
+                return obj;
+            }
+
+        }).on('filepreupload', function(event, data, previewId, index) {     //上传中
+            console.log('文件正在上传');
+        }).on("fileuploaded", function (event, data, previewId, index) {    //一个文件上传成功
+            var form = data.form, files = data.files, extra = data.extra,
+                response = data.response, reader = data.reader;
+            console.log(response);//打印出返回的json
+            console.log(response.status);//打印出路径
+        }).on('fileerror', function(event, data, msg) {  //一个文件上传失败
+            console.log('文件上传失败！'+data.status);
+        })
+    }
+
+</script>
+
+</body>
+
+</html>
